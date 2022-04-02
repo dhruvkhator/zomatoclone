@@ -36,7 +36,7 @@ class Header extends React.Component {
     }
 
     responseGoogle = (response) => {
-        this.setState({ isLoggedIn: true, userName: response.profileObj.name, loginModalIsOpen: false });
+        this.setState({ isLoggedIn: true, userName: response?.profileObj?.name, loginModalIsOpen: false });
     }
 
     handleLogout = () => {
