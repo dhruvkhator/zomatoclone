@@ -66,7 +66,7 @@ class Header extends React.Component {
                     style={customStyles}
                 >
                     <div>
-                        <button className='btn btn-primary'>Login with Credentails</button>
+                        
                         <div>
                             <GoogleLogin
                                 clientId="286990252275-ar9orpcdnl0ouot9q7qg83vtekuhk02t.apps.googleusercontent.com"
